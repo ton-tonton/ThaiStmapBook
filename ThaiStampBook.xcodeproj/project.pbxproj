@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C2923DC1B3D3B4A008FD591 /* ThaiStampDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1C2923DB1B3D3B4A008FD591 /* ThaiStampDB.sqlite */; };
+		1C3B4C0C1B3D045900638BCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3B4C0B1B3D045900638BCA /* AppDelegate.swift */; };
+		1C3B4C0E1B3D045900638BCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3B4C0D1B3D045900638BCA /* ViewController.swift */; };
+		1C3B4C111B3D045900638BCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C3B4C0F1B3D045900638BCA /* Main.storyboard */; };
+		1C3B4C131B3D045900638BCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C3B4C121B3D045900638BCA /* Images.xcassets */; };
+		1C3B4C221B3D045900638BCA /* ThaiStampBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3B4C211B3D045900638BCA /* ThaiStampBookTests.swift */; };
+		FF0B6CA64D00FEE6304D0E30 /* libPods-ThaiStampBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0E6EFF88EF7D035A23DE47 /* libPods-ThaiStampBook.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C3B4C1C1B3D045900638BCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C3B4BFE1B3D045900638BCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C3B4C051B3D045900638BCA;
+			remoteInfo = ThaiStampBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C2923D51B3D29F5008FD591 /* ThaiStampBook-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ThaiStampBook-Bridging-Header.h"; sourceTree = "<group>"; };
+		1C2923DB1B3D3B4A008FD591 /* ThaiStampDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ThaiStampDB.sqlite; sourceTree = "<group>"; };
+		1C3B4C061B3D045900638BCA /* ThaiStampBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThaiStampBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C3B4C0A1B3D045900638BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C3B4C0B1B3D045900638BCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C3B4C0D1B3D045900638BCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C3B4C101B3D045900638BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C3B4C121B3D045900638BCA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1C3B4C1B1B3D045900638BCA /* ThaiStampBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThaiStampBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C3B4C201B3D045900638BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C3B4C211B3D045900638BCA /* ThaiStampBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThaiStampBookTests.swift; sourceTree = "<group>"; };
+		3F0E6EFF88EF7D035A23DE47 /* libPods-ThaiStampBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThaiStampBook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4550E4713FC30BEA45463FB1 /* Pods-ThaiStampBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThaiStampBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThaiStampBook/Pods-ThaiStampBook.debug.xcconfig"; sourceTree = "<group>"; };
+		473905E0D3C4B08B0DAA5DFB /* Pods-ThaiStampBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThaiStampBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThaiStampBook/Pods-ThaiStampBook.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C3B4C031B3D045900638BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0B6CA64D00FEE6304D0E30 /* libPods-ThaiStampBook.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C3B4C181B3D045900638BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C2923DA1B3D3B1E008FD591 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1C2923DB1B3D3B4A008FD591 /* ThaiStampDB.sqlite */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1C3B4BFD1B3D045900638BCA = {
+			isa = PBXGroup;
+			children = (
+				1C3B4C081B3D045900638BCA /* ThaiStampBook */,
+				1C3B4C1E1B3D045900638BCA /* ThaiStampBookTests */,
+				1C3B4C071B3D045900638BCA /* Products */,
+				E31C93E01FEF924EC071FDC6 /* Pods */,
+				31A985A4CAF694A3724AC2A4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1C3B4C071B3D045900638BCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C3B4C061B3D045900638BCA /* ThaiStampBook.app */,
+				1C3B4C1B1B3D045900638BCA /* ThaiStampBookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C3B4C081B3D045900638BCA /* ThaiStampBook */ = {
+			isa = PBXGroup;
+			children = (
+				1C2923D51B3D29F5008FD591 /* ThaiStampBook-Bridging-Header.h */,
+				1C3B4C0B1B3D045900638BCA /* AppDelegate.swift */,
+				1C3B4C0D1B3D045900638BCA /* ViewController.swift */,
+				1C3B4C0F1B3D045900638BCA /* Main.storyboard */,
+				1C3B4C121B3D045900638BCA /* Images.xcassets */,
+				1C2923DA1B3D3B1E008FD591 /* Resources */,
+				1C3B4C091B3D045900638BCA /* Supporting Files */,
+			);
+			path = ThaiStampBook;
+			sourceTree = "<group>";
+		};
+		1C3B4C091B3D045900638BCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C3B4C0A1B3D045900638BCA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C3B4C1E1B3D045900638BCA /* ThaiStampBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C3B4C211B3D045900638BCA /* ThaiStampBookTests.swift */,
+				1C3B4C1F1B3D045900638BCA /* Supporting Files */,
+			);
+			path = ThaiStampBookTests;
+			sourceTree = "<group>";
+		};
+		1C3B4C1F1B3D045900638BCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C3B4C201B3D045900638BCA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31A985A4CAF694A3724AC2A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F0E6EFF88EF7D035A23DE47 /* libPods-ThaiStampBook.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E31C93E01FEF924EC071FDC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4550E4713FC30BEA45463FB1 /* Pods-ThaiStampBook.debug.xcconfig */,
+				473905E0D3C4B08B0DAA5DFB /* Pods-ThaiStampBook.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C3B4C051B3D045900638BCA /* ThaiStampBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C3B4C251B3D045900638BCA /* Build configuration list for PBXNativeTarget "ThaiStampBook" */;
+			buildPhases = (
+				0E648CC73023AB8D87087E5A /* Check Pods Manifest.lock */,
+				1C3B4C021B3D045900638BCA /* Sources */,
+				1C3B4C031B3D045900638BCA /* Frameworks */,
+				1C3B4C041B3D045900638BCA /* Resources */,
+				7BA8CB3ABA7EDD663DCA4F02 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThaiStampBook;
+			productName = ThaiStampBook;
+			productReference = 1C3B4C061B3D045900638BCA /* ThaiStampBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C3B4C1A1B3D045900638BCA /* ThaiStampBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C3B4C281B3D045900638BCA /* Build configuration list for PBXNativeTarget "ThaiStampBookTests" */;
+			buildPhases = (
+				1C3B4C171B3D045900638BCA /* Sources */,
+				1C3B4C181B3D045900638BCA /* Frameworks */,
+				1C3B4C191B3D045900638BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C3B4C1D1B3D045900638BCA /* PBXTargetDependency */,
+			);
+			name = ThaiStampBookTests;
+			productName = ThaiStampBookTests;
+			productReference = 1C3B4C1B1B3D045900638BCA /* ThaiStampBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C3B4BFE1B3D045900638BCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ton;
+				TargetAttributes = {
+					1C3B4C051B3D045900638BCA = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					1C3B4C1A1B3D045900638BCA = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 1C3B4C051B3D045900638BCA;
+					};
+				};
+			};
+			buildConfigurationList = 1C3B4C011B3D045900638BCA /* Build configuration list for PBXProject "ThaiStampBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C3B4BFD1B3D045900638BCA;
+			productRefGroup = 1C3B4C071B3D045900638BCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C3B4C051B3D045900638BCA /* ThaiStampBook */,
+				1C3B4C1A1B3D045900638BCA /* ThaiStampBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C3B4C041B3D045900638BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C3B4C111B3D045900638BCA /* Main.storyboard in Resources */,
+				1C3B4C131B3D045900638BCA /* Images.xcassets in Resources */,
+				1C2923DC1B3D3B4A008FD591 /* ThaiStampDB.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C3B4C191B3D045900638BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E648CC73023AB8D87087E5A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7BA8CB3ABA7EDD663DCA4F02 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThaiStampBook/Pods-ThaiStampBook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C3B4C021B3D045900638BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C3B4C0E1B3D045900638BCA /* ViewController.swift in Sources */,
+				1C3B4C0C1B3D045900638BCA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C3B4C171B3D045900638BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C3B4C221B3D045900638BCA /* ThaiStampBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C3B4C1D1B3D045900638BCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C3B4C051B3D045900638BCA /* ThaiStampBook */;
+			targetProxy = 1C3B4C1C1B3D045900638BCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C3B4C0F1B3D045900638BCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C3B4C101B3D045900638BCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C3B4C231B3D045900638BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C3B4C241B3D045900638BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C3B4C261B3D045900638BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4550E4713FC30BEA45463FB1 /* Pods-ThaiStampBook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = ThaiStampBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ThaiStampBook/ThaiStampBook-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		1C3B4C271B3D045900638BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 473905E0D3C4B08B0DAA5DFB /* Pods-ThaiStampBook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = ThaiStampBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ThaiStampBook/ThaiStampBook-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		1C3B4C291B3D045900638BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ThaiStampBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThaiStampBook.app/ThaiStampBook";
+			};
+			name = Debug;
+		};
+		1C3B4C2A1B3D045900638BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ThaiStampBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThaiStampBook.app/ThaiStampBook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C3B4C011B3D045900638BCA /* Build configuration list for PBXProject "ThaiStampBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C3B4C231B3D045900638BCA /* Debug */,
+				1C3B4C241B3D045900638BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C3B4C251B3D045900638BCA /* Build configuration list for PBXNativeTarget "ThaiStampBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C3B4C261B3D045900638BCA /* Debug */,
+				1C3B4C271B3D045900638BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C3B4C281B3D045900638BCA /* Build configuration list for PBXNativeTarget "ThaiStampBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C3B4C291B3D045900638BCA /* Debug */,
+				1C3B4C2A1B3D045900638BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C3B4BFE1B3D045900638BCA /* Project object */;
+}
