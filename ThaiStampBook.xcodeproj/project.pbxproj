@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1C2923DC1B3D3B4A008FD591 /* ThaiStampDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1C2923DB1B3D3B4A008FD591 /* ThaiStampDB.sqlite */; };
+		1C3A74551B412F3100CF4881 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3A74541B412F3100CF4881 /* HomeViewController.swift */; };
+		1C3A745C1B413F4000CF4881 /* sea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C3A745B1B413F4000CF4881 /* sea.jpg */; };
 		1C3B4C0C1B3D045900638BCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3B4C0B1B3D045900638BCA /* AppDelegate.swift */; };
 		1C3B4C111B3D045900638BCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C3B4C0F1B3D045900638BCA /* Main.storyboard */; };
 		1C3B4C131B3D045900638BCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C3B4C121B3D045900638BCA /* Images.xcassets */; };
@@ -53,6 +55,8 @@
 /* Begin PBXFileReference section */
 		1C2923D51B3D29F5008FD591 /* ThaiStampBook-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ThaiStampBook-Bridging-Header.h"; sourceTree = "<group>"; };
 		1C2923DB1B3D3B4A008FD591 /* ThaiStampDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = ThaiStampDB.sqlite; path = Resources/ThaiStampDB.sqlite; sourceTree = "<group>"; };
+		1C3A74541B412F3100CF4881 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1C3A745B1B413F4000CF4881 /* sea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sea.jpg; sourceTree = "<group>"; };
 		1C3B4C061B3D045900638BCA /* ThaiStampBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThaiStampBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C3B4C0A1B3D045900638BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C3B4C0B1B3D045900638BCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +123,14 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		1C3A74561B413EFE00CF4881 /* cover */ = {
+			isa = PBXGroup;
+			children = (
+				1C3A745B1B413F4000CF4881 /* sea.jpg */,
+			);
+			path = cover;
+			sourceTree = "<group>";
+		};
 		1C3B4BFD1B3D045900638BCA = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +156,7 @@
 			children = (
 				1C2923D51B3D29F5008FD591 /* ThaiStampBook-Bridging-Header.h */,
 				1C3B4C0B1B3D045900638BCA /* AppDelegate.swift */,
+				1C3A74541B412F3100CF4881 /* HomeViewController.swift */,
 				1C3B4C0F1B3D045900638BCA /* Main.storyboard */,
 				1C3B4C121B3D045900638BCA /* Images.xcassets */,
 				1C2923DA1B3D3B1E008FD591 /* Resources */,
@@ -180,6 +193,7 @@
 		1CD99E691B3E58A3007AFDD6 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				1C3A74561B413EFE00CF4881 /* cover */,
 				1CD99E6A1B3E58A3007AFDD6 /* 1968 */,
 				1CD99E6F1B3E58A3007AFDD6 /* 1972 */,
 				1CD99E741B3E58A3007AFDD6 /* 1973 */,
@@ -375,6 +389,7 @@
 				1CD99E961B3E58A3007AFDD6 /* 159_7.png in Resources */,
 				1C2923DC1B3D3B4A008FD591 /* ThaiStampDB.sqlite in Resources */,
 				1CD99E981B3E58A3007AFDD6 /* 172_1.png in Resources */,
+				1C3A745C1B413F4000CF4881 /* sea.jpg in Resources */,
 				1CD99E9B1B3E58A3007AFDD6 /* 174_3.png in Resources */,
 				1CD99E941B3E58A3007AFDD6 /* 159_5.png in Resources */,
 			);
@@ -428,6 +443,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C3B4C0C1B3D045900638BCA /* AppDelegate.swift in Sources */,
+				1C3A74551B412F3100CF4881 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
