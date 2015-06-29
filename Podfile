@@ -4,6 +4,7 @@ platform :ios, '8.0'
 target 'ThaiStampBook' do
 
 pod 'FMDB'
+pod 'LTNavigationBar'
 
 end
 

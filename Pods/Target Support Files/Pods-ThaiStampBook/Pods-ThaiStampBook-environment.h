@@ -24,3 +24,9 @@
 #define COCOAPODS_VERSION_MINOR_FMDB_standard 5
 #define COCOAPODS_VERSION_PATCH_FMDB_standard 0
 
+// LTNavigationBar
+#define COCOAPODS_POD_AVAILABLE_LTNavigationBar
+#define COCOAPODS_VERSION_MAJOR_LTNavigationBar 2
+#define COCOAPODS_VERSION_MINOR_LTNavigationBar 0
+#define COCOAPODS_VERSION_PATCH_LTNavigationBar 3
+
