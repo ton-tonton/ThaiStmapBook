@@ -20,7 +20,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IH1-3B-aPu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-606" y="374"/>
+            <point key="canvasLocation" x="-654" y="374"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="aRz-F3-W6R">
@@ -38,13 +38,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <view key="tableHeaderView" contentMode="scaleToFill" id="Ikn-nK-mgj">
-                                    <rect key="frame" x="0.0" y="64" width="320" height="186"/>
+                                    <rect key="frame" x="0.0" y="64" width="320" height="136"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sea.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="1Rs-iD-05J">
-                                            <rect key="frame" x="0.0" y="-64" width="320" height="250"/>
+                                            <rect key="frame" x="0.0" y="-64" width="320" height="200"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="250" id="nmI-1Z-6CM"/>
+                                                <constraint firstAttribute="height" constant="200" id="nmI-1Z-6CM"/>
                                             </constraints>
                                         </imageView>
                                     </subviews>
@@ -72,6 +72,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="H06-H0-mem" id="wuZ-W7-Tpc"/>
+                                    <outlet property="delegate" destination="H06-H0-mem" id="qgO-83-Rxf"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -83,10 +87,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="fIl-ia-bze"/>
+                    <connections>
+                        <outlet property="tableView" destination="9wp-XS-yyR" id="wl8-yy-Tfl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HBL-Is-feA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-150" y="374"/>
+            <point key="canvasLocation" x="-237" y="374"/>
         </scene>
     </scenes>
     <resources>
